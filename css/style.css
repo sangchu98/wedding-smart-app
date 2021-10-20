@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-size:16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #3D3C3C;
+}
+
+#title{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    margin-top: 60px;
+    
+}
+
+#title h1{
+    font-size: 24px;
+    border-left: 4px solid #808080;
+    margin-left: 50px;
+    color: #000;
+}
+
+#title figure img{
+    padding: 50px;
+    width: 100%;
+    height: 54vh;
+}
+
+
+#title .title-info{
+    text-align:left;
+    text-align: end;
+    padding-right: 50px;
+}
+
+#title .title-info .name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+#title .title-info .address{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#intro .intro-box{
+    text-align: center;
+    background: #F8EBE8;
+}
+
+#intro .intro-header-box{
+    padding-top: 34px;
+}
+
+#intro .intro-header-box h2{
+    font-size: 24px;
+    margin-bottom: 76px;
+    font-weight: 600;
+
+}
+
+#intro .intro-box p{
+    line-height: 38px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#intro .intro-box .inrto-img img{
+    width: 100%;
+    padding: 5px 6px;
+    margin-top: 50px;
+}
+
+#gallery{
+    padding-top: 30px;
+    background: #fff;
+}
+#gallery .gallery-box{
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 30px;
+}
+.slider .sliders {
+    width: 100%;
+    display: flex;
+    margin-left: -000%;
+    transition-duration: 1.5s;
+}
+.slider .sliders img{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.slider .indicator{
+    width: 100%;
+    text-align: center;
+    bottom: -30px;
+}
+.slider .indicator a{
+    width: 11px;
+    height: 11px;
+    margin:5px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #999; 
+}
+.slider .indicator a.active{
+    background: #000;
+}
+
+#map{
+    margin-top: 72px;
+}
+
+#map .map-box h2{
+    text-align: center;
+    font-size: 24px;
+}
+
+#map .map-box .google-map{
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #3D3C3C;
+}
+
+.map-info .map-info-box{
+    margin-left: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.map-info .map-info-box h3{
+    font-size: 18px;
+}
+
+.map-info .map-info-box p{
+    font-size: 16px;
+}
+.map-info .map-info-box a{
+    position: absolute;
+    right: 15px;
+    top:15px;
+}
+
+.map-info .info-textbox{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.map-info .info-textbox h4{
+    margin-top: 10px;
+}
+
+#message .message-box{
+    text-align: center;
+    margin-top: 45px;  
+    margin-bottom: 65px;
+}
+
+#message .namebox{
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 170px;
+    height: 26px;
+    border: 2px solid #707070;
+}
+
+#message .messagebox{
+    height: 138px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 2px solid #707070;
+}
+#message p{
+    text-align: start;
+    margin-left: 10px;
+    font-size: 12px;
+    padding-top: 2px;
+    color: #ccc
+}
+button{
+    margin-top: 15px;
+    border:none;
+    background: #332525;
+    padding: 10px 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+button a{
+    font-size: 16px;
+    color: #fff;
+    display: block;
+}
+
+footer{
+    background: #444;
+    text-align: center;
+    color: #fff;
+    padding: 22px 0;
+}
+
+footer p:first-child{
+    font-size: 24px;
+}
+footer p:last-child{
+    font-size: 14px;
+}
+
+
+
+
+
